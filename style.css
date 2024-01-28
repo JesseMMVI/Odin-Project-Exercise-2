@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    color: white;
+}
+h2{
+    font-size: 48px;
+}
+button{
+    background-color: #3882F6;
+    border-style:none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 100px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 24px 48px;
+    align-items: center;
+    background-color:#1F2937;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+a{
+    text-decoration: none;
+    transition: .2s;
+}
+a:hover{
+    color: lightgrey;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width:30%;
+}
+.hero{
+    margin-inline:auto;
+    display: flex;
+    gap: 100px;
+    padding: 200px 20%;
+    background-color: #1F2937;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section1{
+    background-color: white;
+    padding: 20px 25%;
+}
+h3{
+    font-size: 32px;
+    text-align: center;
+    color:#1F2937;
+    margin-block-end: 40px;
+}
+.imagescontent{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub{
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.square{
+    border-style: solid;
+    border-width: 6px;
+    border-color:#3882F6;
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 20px;
+}
+.section2{
+    
+    background-color: lightgrey;
+    padding: 100px 25%;
+}
+.quote{
+    font-weight: 100;
+    text-align: start;
+}
+.quote2{
+    text-align: end;
+    color:black;
+    font-weight:600;
+    font-size:24px;
+}
+.section3{
+    background-color: white;
+}
+.box{
+    background-color: #3882F6;
+    height: 60px;
+    margin: 100px 30%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ctah1{
+    font-size: 24px;
+}
+.ctap{
+    font-size: 18px;
+    font-weight: 200;
+}
+.ctabutton{
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+}
